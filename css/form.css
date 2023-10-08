@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: bisque;
+    background-color: #ffe4c4;
 }
 
 .container {
@@ -22,14 +22,14 @@ body {
 }
 
 .form__legend {
-    background-color: rgb(255, 140, 102);
+    background-color: #ff8c66;
     border: 2px solid #474747;
     padding: 5px;
     border-radius: 10px;
 }
 
 .form__area {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .form__labelText {
@@ -44,21 +44,21 @@ body {
     max-width: 300px;
     width: 100%;
     border-style: solid;
-    background-color: rgba(254, 182, 158);
+    background-color: #feb69e;
     border-radius: 10px;
     padding: 5px;
 }
 
 .form__field:read-only {
-    background-color: rgb(253, 164, 135);
+    background-color: #fda487;
 }
 
 .form__field:hover {
-    background-color: rgb(253, 164, 135);
+    background-color: #fda487;
 }
 
 .form__button {
-    background-color: rgb(255, 140, 102);
+    background-color: #ff8c66;
     max-width: 100px;
     width: 100%;
     border: 2px solid #474747;
@@ -68,9 +68,9 @@ body {
 }
 
 .form__button:hover {
-    background-color: rgb(254, 119, 74);
+    background-color: #fe774a;
 }
 
 .form__button:active {
-    background-color: rgb(255, 96, 43);
+    background-color: #ff602b;
 }
