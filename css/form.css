@@ -74,3 +74,9 @@ body {
 .form__button:active {
     background-color: #ff602b;
 }
+
+.form__resultField {
+    background-color: #feb69e;
+    border: #000000 solid 1px;
+    text-align: center;
+}
