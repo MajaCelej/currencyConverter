@@ -7,7 +7,11 @@ html {
 }
 
 body {
-    background-color: #ffe4c4;
+    background-image: url("../images/360_F_357201360_S3j3ygHsJGKmKcdgcYVMV7jXpdYLmnS4.jpg");
+    background-position: center;
+    background-repeat:repeat
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container {
@@ -15,4 +19,11 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     font-family: 'Niramit', sans-serif;
+}
+
+.textField {
+    background-color: #feb69e;
+    border: #000000 solid 1px;
+    text-align: center;
+    margin: 30px;
 }
