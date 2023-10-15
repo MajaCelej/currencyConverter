@@ -1,14 +1,24 @@
-let formElement = document.querySelector(".js-form")
-let amountElement = document.querySelector(".js-amount");
-let rateElement = document.querySelector(".js-rate");
-let resultElement = document.querySelector(".js-result");
+{
+    const updateResultText = (result) => {
+        resultElement.innerText = result.toFixed(2);
+    }
 
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
+    const onFormSubmit = (event) => {
+        event.preventDefault();
 
-    let amount = amountElement.value;
-    let rate = rateElement.value;
-    let result = amount * rate;
+        const formElement = document.querySelector(".js-form")
+        const amountElement = document.querySelector(".js-amount");
+        const rateElement = document.querySelector(".js-rate");
+        const resultElement = document.querySelector(".js-result");
 
-    resultElement.innerText = result.toFixed(2);
-});
+        const amount = amountElement.value;
+        const rate = rateElement.value;
+        const result = amount * rate;
+
+        updateResultText(result);
+    }
+
+    const init = () => {
+        formElement.addEventListener("submit", onFormSubmit);
+    }
+}
